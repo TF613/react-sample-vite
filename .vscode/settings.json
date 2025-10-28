@@ -1,0 +1,9 @@
+// .vscode/settings.json（パターンA）
+{
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/dist": true
+  }
+}

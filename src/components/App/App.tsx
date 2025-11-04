@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import Hello from '../Hello/Hello';
 import Name from '../Name/Name';
+import Message from '../Message/Message';
+import Parent from '../ContainerSample/ContainerSample';
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +30,8 @@ export default function App() {
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
       <Hello />
       <Name />
+      <Message />
+      <Parent />
     </>
   );
 }
